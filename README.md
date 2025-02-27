@@ -6,7 +6,7 @@ git clone https://github.com/aditi135/WCS-Backend-Workshop.git
 ## Install dependencies
 cd client \
 npm install \
-cd ..\server\
+cd server \
 npm install
 
 ## If you dont have NPM: 
