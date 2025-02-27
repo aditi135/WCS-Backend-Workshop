@@ -13,8 +13,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB Atlas
-// Connect to MongoDB Atlas
 const dbURI = "your mongodb connection string";
+
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define Note model
@@ -47,7 +47,6 @@ app.get("/api/notes", async (req, res) => {
     }
 });
 
-// Update Note by ID
 // Update Note by ID
 app.put("/api/notes/:id", async (req, res) => {
     const { title, content } = req.body;
