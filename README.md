@@ -1,7 +1,7 @@
 # WCS-Backend-Workshop
 
 ## Clone and enter the repository
-git clone https://github.com/anshimathur0325/WCS-Frontend-Workshop-Dev.git \
+git clone https://github.com/aditi135/WCS-Backend-Workshop.git 
 
 ## Install dependencies
 cd client
